@@ -20,7 +20,6 @@ export default async function WeatherList({ searchParams }: Props) {
     return (
       <div className="p-12">
         <SearchedWeather />
-        <p className="mt-4 opacity-60">Enter city</p>
       </div>
     );
   }
